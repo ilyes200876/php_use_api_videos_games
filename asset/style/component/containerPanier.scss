@@ -1,0 +1,41 @@
+.containerPanierDetails{
+  width: 40%;
+  border: solid black;
+  border-radius: 10%;
+  background-color: rgb(44, 42, 42);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.panierNamePrice{
+  display: flex;
+  justify-content: space-between;
+}
+
+.panierNamePrice .panierName{
+  width: 70%;
+}
+
+.panierNamePrice .buttonDelete{
+  border-radius: 50%;
+  color: red;
+  font-weight: bold;
+}
+
+.panierButtonLien{
+  display: flex;
+  justify-content: space-around;
+}
+
+.panierButtonLien button{
+  border-radius: 10%;
+  background-color: $main-color;
+}
+
+.panierButtonLien a{
+  text-decoration: none;
+}
+
+

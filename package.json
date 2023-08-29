@@ -1,0 +1,14 @@
+{
+  "name": "starter_html_sass",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "sass --watch asset/style/index.scss build/style.css"
+  },
+  "author": "Ilyes ATTIA",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "sass": "^1.60.0"
+  }
+}
